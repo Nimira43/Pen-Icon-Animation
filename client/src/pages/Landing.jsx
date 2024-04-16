@@ -13,7 +13,7 @@ const Landing = () => {
       <div className="container page">
         <div className="info">
           <h1>
-            job <span>tracking</span> app
+            find<span> your</span> future
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque

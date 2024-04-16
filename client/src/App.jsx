@@ -5,13 +5,14 @@ import {
   Register,
   Login,
   DashboardLayout,
-  // Error,
+  Error,
 } from './pages'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <HomeLayout />,
+    errorElement: <Error />,
     children: [
       {
         index: true,

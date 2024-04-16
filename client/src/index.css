@@ -167,7 +167,9 @@ ul {
   display: block;
   object-fit: cover;
 }
-
+.logo {
+  color: var(--primary-500);
+}
 .btn {
   cursor: pointer;
   color: var(--white);

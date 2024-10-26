@@ -14,18 +14,18 @@ html {
 
 :root {
  
-  --primary-50: #e2edff;
-  --primary-100: #aac9ff;
-  --primary-200: #74a3ff;
-  --primary-300: #3e78ff;
-  --primary-400: #2260ff;
-  --primary-500: #0541ff;
-  --primary-600: #0000ff;
-  --primary-700: #0000de;
-  --primary-800: #00009e;
-  --primary-900: #000063;
+  --primary-50: #faf0ed;
+  --primary-100: #fddbce;
+  --primary-200: #f9b59c;
+  --primary-300: #faa98c;
+  --primary-400: #f7845c;
+  --primary-500: #fc7847;
+  --primary-600: #f75f2c;
+  --primary-700: #ff4500;
+  --primary-800: #ca3802;
+  --primary-900: #a42c00;
 
-  --grey-50: #fefefe;
+  --grey-50: #efefef;
   --grey-100: #eee;
   --grey-200: #ccc;
   --grey-300: #aaa;
@@ -33,11 +33,11 @@ html {
   --grey-500: #666;
   --grey-600: #454545;
   --grey-700: #333;
-  --grey-800: #222;
+  --grey-800: #212121;
   --grey-900: #111;
 
   --black: #000;
-  --white: #fff;
+  --white: #f5f5dc;
   --orange-light: #f3cc85;
   --orange-dark: #ff9d00;
   --green-light: #9ae4c3;
@@ -254,7 +254,7 @@ button:disabled {
   width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: var(--border-radius);
-  background: var(--gray-50);
+  background: var(--grey-50);
   border: 1px solid var(--grey-300);
   color: var(--text-color);
 }
@@ -325,5 +325,5 @@ button:disabled {
 }
 .declined {
   background: #ffeeee;
-  color: #d66a6a;
+  color: #dc3131;
 }

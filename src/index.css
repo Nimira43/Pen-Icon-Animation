@@ -144,6 +144,13 @@ h5 {
 }
  */
 
+ .logo { 
+  font-family: 'Saira Condensed', sans-serif;
+  color: #ff4500;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+ }
 .text {
   margin-bottom: 1.5rem;
   max-width: 40em;

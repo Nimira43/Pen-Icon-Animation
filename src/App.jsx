@@ -1,5 +1,7 @@
-export default function App() {
+const App = () => {
   return (
-    <div>WorkSearch</div>
+    <h1>WorkSearch</h1>
   )
 }
+
+export default App

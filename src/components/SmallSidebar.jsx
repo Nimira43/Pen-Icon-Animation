@@ -6,7 +6,6 @@ const SmallSidebar = () => {
       SmallSidebar
     </Wrapper>
   )
-
 }
 
 export default SmallSidebar

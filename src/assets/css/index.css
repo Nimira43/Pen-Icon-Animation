@@ -75,13 +75,6 @@
   --dark-mode-text-colour: var(--light);
 }
 
-.logo {
-  font-family: var(--logo-font);
-  font-size: var(--rem-2);
-  font-weight: bold;
-  color: var(--primary-dark);
-}
-
 body {
   background: var(--light-mode-bg-colour);
   color: var(--light-mode-text-colour);
@@ -142,6 +135,14 @@ h5 {
 
 ul {
   padding: 0;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: var(--rem-2);
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--primary-dark);
 }
 
 .img {

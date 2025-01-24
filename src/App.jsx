@@ -1,4 +1,4 @@
-import { DashboardLayout, HomeLayout, Login, Register } from './pages'
+import { DashboardLayout, HomeLayout, Landing, Login, Register } from './pages'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -7,6 +7,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <HomeLayout />,
     children: [
+      {
+        index: true,
+        element: <Landing />,
+      },
       {
         path: '/register',
         element: <Register />
@@ -55,10 +59,7 @@ export default App
 //     element: <HomeLayout />,
 //     errorElement: <Error />,
 //     children: [
-//       {
-//         index: true,
-//         element: <Landing />,
-//       },
+//       
 //       {
 //         path: '/register',
 //         element: <Register />,

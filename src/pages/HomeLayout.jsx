@@ -10,14 +10,3 @@ const HomeLayout = () => {
 
 export default HomeLayout
 
-
-// import { Outlet } from 'react-router-dom'
-
-// const HomeLayout = () => {
-//   return (
-//     <>
-//       <Outlet />
-//     </>
-//   )
-// }
-// export default HomeLayout

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.section`
-
   nav {
     width: var(--fluid-width);
     max-width: var(--max-width);
@@ -11,30 +10,35 @@ const Wrapper = styled.section`
     align-items: center;
   }
 
+  .logo {
+    margin-top: var(--rem-2);
+  }
+
   .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
     align-items: center;
-    margin-top: -3rem;
+    margin-top: var(--rem-2);
   }
 
   h1 {
-    font-weight: 700;
+    font-weight: 400;
     span {
-      color: var(--primary-500);
+      color: var(--primary-dark);
     }
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--rem-1-5);
   }
 
   p {
-    line-height: 2;
-    color: var(--text-secondary-color);
-    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: var(--dark);
+    margin-top: var(--rem-1-5);
+    margin-bottom: var(--rem-1-5);
     max-width: 35em;
   }
 
   .register-link {
-    margin-right: 1rem;
+    margin-right: var(--rem-1);
   }
 
   .main-img {
@@ -42,9 +46,9 @@ const Wrapper = styled.section`
   }
 
   .btn {
-    padding: 0.75rem 1rem;
+    padding: var(--size-12) var(--rem-1);
   }
-  
+
   @media (min-width: 992px) {
     .page {
       grid-template-columns: 1fr 400px;
@@ -54,5 +58,6 @@ const Wrapper = styled.section`
       display: block;
     }
   }
-`;
+`
+
 export default Wrapper

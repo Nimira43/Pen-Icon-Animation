@@ -10,21 +10,21 @@ const Wrapper = styled.main`
     width: 90vw;
     max-width: 600px;
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: var(--rem-2);
     margin-top: -3rem;
   }
   h3 {
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--size-8);
   }
   p {
     line-height: 1.5;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    color: var(--text-secondary-color);
+    margin-top: var(--size-8);
+    margin-bottom: var(--rem-1);
+    color: var(--dark);
   }
   a {
-    color: var(--primary-500);
-    text-transform: capitalize;
+    color: var(--primary-dark);
+    text-transform: uppercase;
   }
 `;
 

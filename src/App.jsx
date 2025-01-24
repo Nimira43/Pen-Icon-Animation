@@ -1,5 +1,4 @@
 import { DashboardLayout, Error, HomeLayout, Landing, Login, Register } from './pages'
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([

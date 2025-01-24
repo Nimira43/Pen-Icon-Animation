@@ -1,17 +1,23 @@
+import { DashboardLayout, HomeLayout, Login, Register } from './pages'
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Home</h1>
+    element: <HomeLayout />
   },
   {
-    path: '/about',
-    element: (
-      <div>
-        <h2>About Page</h2>
-      </div>
-    )
+    path: '/register',
+    element: <Register />
+  },
+  {
+    path: '/login',
+    element: <Login />
+  },
+  {
+    path: '/dashboard',
+    element: <DashboardLayout />
   }
 ])
 

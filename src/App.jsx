@@ -5,20 +5,22 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomeLayout />
+    element: <HomeLayout />,
+    children: [
+      {
+        path: '/register',
+        element: <Register />
+      },
+      {
+        path: '/login',
+        element: <Login />
+      },
+      {
+        path: '/dashboard',
+        element: <DashboardLayout />
+      },
+    ],
   },
-  {
-    path: '/register',
-    element: <Register />
-  },
-  {
-    path: '/login',
-    element: <Login />
-  },
-  {
-    path: '/dashboard',
-    element: <DashboardLayout />
-  }
 ])
 
 const App = () => {  

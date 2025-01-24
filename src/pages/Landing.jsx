@@ -1,12 +1,13 @@
 import landing from '../assets/images/landing.svg'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import Logo from '../components/Logo'
 
 const Landing = () => {
   return (
     <StyledWrapper>
       <nav>
-        <h1 className='logo'>Worksearch</h1>
+        <Logo />
       </nav>
       <div className='container page'>
         <div className='info'>

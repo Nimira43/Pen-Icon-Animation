@@ -1,16 +1,5 @@
 const Logo = () => {
-  return (
-    <div>
-      <h1>Logo</h1>
-    </div>
-  )
+  return <h1 className='logo'>Worksearch</h1>
 }
 
 export default Logo
-
-
-// const Logo = () => {
-//   return <h3 className='logo'>WorkSearch</h3>;
-// };
-
-// export default Logo;

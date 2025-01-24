@@ -1,3 +1,4 @@
+import {main} from '../assets/images/landing-offer.svg'
 import { Link } from 'react-router-dom'
 import Wrapper from '../assets/wrappers/LandingPage'
 
@@ -18,7 +19,7 @@ const Landing = () => {
             Login
           </Link>  
         </div>
-        <img 
+        <img src={main} alt='Worksearch' className='img main-img' />
       </div>
     </Wrapper>
   )

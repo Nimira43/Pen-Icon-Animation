@@ -26,10 +26,5 @@ const Wrapper = styled.section`
   .btn {
     margin-top: var(--rem-1);
   }
-  .member-btn {
-    color: var(--primary-dark);
-    letter-spacing: var(--letter-spacing);
-    margin-left: var(--size-4);
-  }
 `;
 export default Wrapper

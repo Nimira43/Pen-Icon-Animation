@@ -186,6 +186,7 @@ ul {
 .btn-outline:hover {
   color: var(--primary-dark-extra);
   border-color: var(--primary-dark-extra);
+  background: transparent;
 }
 
 .btn-dark {
@@ -229,6 +230,7 @@ button:disabled {
 .form-input,
 .form-textarea,
 .form-select {
+  font-family: inherit;
   width: 100%;
   padding: var(--size-6)var(--size-12);
   border-radius: var(--border-radius);

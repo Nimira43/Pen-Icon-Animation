@@ -10,25 +10,26 @@ const Wrapper = styled.section`
     margin-bottom: 1.38rem;
   }
   .form {
+    padding: var(--size-20);
     max-width: 400px;
-    border-top: 5px solid var(--primary-500);
+    border-top: var(--size-5) solid var(--light);
   }
   h4 {
     text-align: center;
     margin-bottom: 1.38rem;
   }
   p {
-    margin-top: 1rem;
+    margin-top: var(--rem-1);
     text-align: center;
     line-height: 1.5;
   }
   .btn {
-    margin-top: 1rem;
+    margin-top: var(--rem-1);
   }
   .member-btn {
-    color: var(--primary-500);
+    color: var(--primary-dark);
     letter-spacing: var(--letter-spacing);
-    margin-left: 0.25rem;
+    margin-left: var(--size-4);
   }
 `;
 export default Wrapper

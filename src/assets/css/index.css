@@ -220,9 +220,9 @@ button:disabled {
 
 .form-label {
   display: block;
-  font-size: var(--small-text);
+  font-size: var(--size-14);
   margin-bottom: var(--size-12);
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: var(--letter-spacing);
   line-height: 1.5;
 }
@@ -253,7 +253,7 @@ button:disabled {
   height: var(--rem-7);
 }
 
-::placeholder {
+input::placeholder {
   font-family: inherit;
   color: var(--grey-medium);
 }

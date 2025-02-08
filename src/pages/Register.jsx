@@ -14,7 +14,7 @@ const Register = () => {
             id='name'
             name='name'
             className='form-input'
-            defaultValue='Name'
+            placeholder='Name'
             required
           />
         </div>

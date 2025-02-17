@@ -5,6 +5,7 @@ const Wrapper = styled.section`
   display: grid;
   align-items: center;
   .logo {
+    text-align: center;
     display: block;
     margin: 0 auto;
     margin-bottom: 1.38rem;
@@ -25,6 +26,14 @@ const Wrapper = styled.section`
   }
   .btn {
     margin-top: var(--rem-1);
+  }
+  .link {
+    margin-left: var(--size-5);
+    color: var(--primary-dark);
+    transition: var(--transition);
+  }
+  .link:hover {
+    color: var(--primary-dark-extra);
   }
 `;
 export default Wrapper

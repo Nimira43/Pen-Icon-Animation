@@ -1,6 +1,6 @@
 import Wrapper from '../assets/wrappers/RegisterAndLoginPage'
 import { Link } from 'react-router-dom'
-import { Logo } from '../components'
+import { FormRow, Logo } from '../components'
 
 const Register = () => {
   return (
@@ -8,7 +8,11 @@ const Register = () => {
       <form className='form'>
         <Logo />
         <h4>Register</h4>
-        
+        <FormRow type='text' name='name' labelText='first name' />
+        <FormRow type='text' name='lastName' labelText='last name' />
+        <FormRow type='text' name='location' />
+        <FormRow type='email' name='email' />
+        <FormRow type='password' name='password' />
         <button type='submit' className='btn btn-block'>Submit</button>
         <p>
           Already signed up?

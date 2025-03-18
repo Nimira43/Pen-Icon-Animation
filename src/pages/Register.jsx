@@ -8,17 +8,7 @@ const Register = () => {
       <form className='form'>
         <Logo />
         <h4>Register</h4>
-        <div className='form-row'>
-          <label htmlFor='name' className='form-label'>Name</label>
-          <input
-            type='text'
-            id='name'
-            name='name'
-            className='form-input'
-            placeholder='Name'
-            required
-          />
-        </div>
+        
         <button type='submit' className='btn btn-block'>Submit</button>
         <p>
           Already signed up?

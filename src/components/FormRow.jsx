@@ -11,14 +11,14 @@ const FormRow = ({
         htmlFor={name}
         className='form-label'
       >
-        
+        {labelText || name}
       </label>
       <input
-        type='text'
-        id='name'
-        name='name'
+        type={type}
+        id={name}
+        name={name}
         className='form-input'
-        defaultValue='Name'
+        defaultValue={defaultValue || ''}
         required
       />
     </div>

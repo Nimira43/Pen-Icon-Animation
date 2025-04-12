@@ -1,4 +1,4 @@
-import { DashboardLayout, Error, HomeLayout, Landing, Login, Register } from './pages'
+import { DashboardLayout, Error, HomeLayout, Landing, Login, Register, AddJob, Stats, AllJobs, Profile, Admin } from './pages'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -21,7 +21,29 @@ const router = createBrowserRouter([
       },
       {
         path: '/dashboard',
-        element: <DashboardLayout />
+        element: <DashboardLayout />,
+        children: [
+          {
+            index: true,
+            element: <AddJob />
+          },
+          {
+            path: 'stats',
+            element: <Stats />
+          },
+          {
+            path: 'all-jobs',
+            element: <AllJobs />
+          },
+          {
+            path: 'profile',
+            element: <Profile />
+          },
+          {
+            path: 'admin',
+            element: <Admin />
+          },
+        ],
       },
     ],
   },
@@ -34,69 +56,4 @@ const App = () => {
 }
 
 export default App
-
-
-// import {
-//   Error,
-//   AddJob,
-//   Stats,
-//   AllJobs,
-//   Profile,
-//   Admin,
-
-// } from './pages'
-
-
-// const router = createBrowserRouter ([
-//   {
-//     path: '/',
-//     element: <HomeLayout />,
-//     errorElement: <Error />,
-//     children: [
-//       
-//       {
-//         path: '/register',
-//         element: <Register />,
-//       },
-//       {
-//         path: '/login',
-//         element: <Login />,
-//       },
-//       {
-//         path: '/dashboard',
-//         element: <DashboardLayout />,
-//         children: [
-//           {
-//             index: true,
-//             element: <AddJob />
-//           },
-//           {
-//             path: 'stats',
-//             element: <Stats />
-//           },
-//           {
-//             path: 'all-jobs',
-//             element: <AllJobs />
-//           },
-//           {
-//             path: 'profile',
-//             element: <Profile />
-//           },
-//           {
-//             path: 'admin',
-//             element: <Admin />
-//           },
-//         ],
-//       },
-//     ],
-//   },
-// ])
-
-// const App = () => {
-//   return (
-//     <RouterProvider router={router} />
-//   )
-// }
-
-// export default App
 

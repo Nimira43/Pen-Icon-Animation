@@ -6,6 +6,7 @@ import { useState } from 'react'
 const DashboardLayout = () => {
   const user = { name: 'Lenny' }
   const [showSidebar, setShowSidebar] = useState(false)
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
 
 
   return (

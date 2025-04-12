@@ -16,6 +16,10 @@ const DashboardLayout = () => {
     setShowSidebar(!showSidebar)
   }
 
+  const logoutUser = (async = () => {
+    console.log('Logout User')
+  })
+
   return (
     <Wrapper>
       <main className='dashboard'>

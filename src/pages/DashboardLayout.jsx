@@ -4,7 +4,7 @@ import { BigSidebar, Navbar, SmallSidebar } from '../components'
 
 const DashboardLayout = () => {
   return (
-    <Wrapper> 
+    <Wrapper>
       <main className='dashboard'>
         <SmallSidebar />
         <BigSidebar />

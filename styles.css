@@ -73,3 +73,9 @@ span:nth-child(2) {
   transform: scaleY(0);
   transform-origin: top;
 }
+
+a:hover span:nth-child(2) {
+  transform: scaleY(1);
+  transition: 0.2s;
+  transition-delay: 0.2s;
+}

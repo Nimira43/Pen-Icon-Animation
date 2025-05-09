@@ -66,3 +66,10 @@ span:nth-child(4) {
   height: 100%;
   background: #262626;
 }
+
+span:nth-child(2) {
+  top: 0;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}

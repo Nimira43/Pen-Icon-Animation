@@ -7,7 +7,7 @@ const Navbar = () => {
     <Wrapper>
       <div className='nav-center'>
         <button type='button' className='toggle-btn'>
-          <LiaAlignCenterSolid className='' />
+          <LiaAlignCenterSolid className=' ' />
         </button>
         <div>
           <Logo />

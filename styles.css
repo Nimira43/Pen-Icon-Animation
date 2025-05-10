@@ -111,3 +111,9 @@ a:hover:before {
   transition: 0.5s;
   transition-delay: 0.8s;
 }
+
+a:hover {
+  color: #111;
+  transition: 0.2s;
+  transition-delay: 0.8s;
+}

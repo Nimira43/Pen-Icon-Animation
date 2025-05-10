@@ -117,3 +117,43 @@ a:hover {
   transition: 0.2s;
   transition-delay: 0.8s;
 }
+
+a:after {
+  content: "\f303";
+  font-family: fontAwesome;
+  position: absolute;
+  top: -22px;
+  left: 0;
+  color: #ff4500;
+}
+
+a:hover:after {
+  animation: draw 1s linear forwards;
+}
+
+@keyframes draw {
+  0% {
+    top: -22px;
+    left: 0;
+  }
+  20% {
+    top: -22px;
+    left: 100%;
+  }
+  40% {
+    top: calc(100% - 22px);
+    left: 100%;
+  }
+  60% {
+    top: calc(100% - 22px);
+    left: 0;
+  }
+  80% {
+    top: -22px;
+    left: 0;
+  }
+  100% {
+    top: calc(100% - 22px);
+    left: 100%;
+  }
+}
